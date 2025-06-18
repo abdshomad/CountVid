@@ -1,0 +1,4 @@
+# ninja log v5
+0	3725	1724703481067414221	/home/niki/countgd/models/GroundingDINO/ops/build/temp.linux-x86_64-cpython-310/home/niki/countgd/models/GroundingDINO/ops/src/cpu/ms_deform_attn_cpu.o	88d6c94770709057
+0	12258	1724703489595754630	/home/niki/countgd/models/GroundingDINO/ops/build/temp.linux-x86_64-cpython-310/home/niki/countgd/models/GroundingDINO/ops/src/vision.o	36f47b85f5961f58
+0	16834	1724703494159936771	/home/niki/countgd/models/GroundingDINO/ops/build/temp.linux-x86_64-cpython-310/home/niki/countgd/models/GroundingDINO/ops/src/cuda/ms_deform_attn_cuda.o	650421a230a6dd5c
