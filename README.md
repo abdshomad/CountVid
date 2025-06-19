@@ -304,7 +304,7 @@ Please cite our related papers if you build off of our work.
 @article{AminiNaieni25,
   title={Open-World Object Counting in Videos},
   author={Amini-Naieni, N. and Zisserman, A.},
-  journal={arXiv preprint arXiv:1904.07850},
+  journal={arXiv preprint arXiv:2506.15368},
   year={2025}
 }
 
