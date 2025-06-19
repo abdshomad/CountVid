@@ -7,6 +7,7 @@ Official PyTorch implementation for CountVid. Details can be found in the paper,
 If you find this repository useful, please give it a star ⭐.
 
 <img src=img/teaser.jpg width="100%"/>
+<img src=img/countvid-results.gif width="100%"/>
 
 ## CountVid
 
