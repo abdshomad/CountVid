@@ -333,4 +333,4 @@ Dr Tom Hart, [Penguin Watch](https://www.zooniverse.org/projects/penguintom79/pe
 Dr Enzo Liotti, Department of Materials, University of Oxford (for the Crystals benchmark in Science-Count)
 
 ### Funding
-We have received funding from the [UKRI Grant VisualAI](https://www.robots.ox.ac.uk/~vgg/projects/visualai/).
+We have received funding from the [UKRI Grant VisualAI](https://www.robots.ox.ac.uk/~vgg/projects/visualai/), AWS, an Oxford-Reuben Graduate Scholarship, and Darwin Plus.
