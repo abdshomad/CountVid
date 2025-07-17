@@ -98,7 +98,13 @@ python -m pip install 'git+https://github.com/facebookresearch/detectron2.git'
   python download_bert.py
   ```
 
-* Download the pretrained CountGD-Box model available [here](https://drive.google.com/file/d/1bw-YIS-Il5efGgUqGVisIZ8ekrhhf_FD/view?usp=sharing), and place it in the ```checkpoints``` directory.
+* Download the pretrained CountGD-Box model available [here](https://drive.google.com/file/d/1bw-YIS-Il5efGgUqGVisIZ8ekrhhf_FD/view?usp=sharing), and place it in the ```checkpoints``` directory Or use ```gdown``` to download the weight.
+
+  ```
+  pip install gdown
+  cd checkpoints
+  gdown 1bw-YIS-Il5efGgUqGVisIZ8ekrhhf_FD
+  ```
 
 * Download the pretrained  SAM 2.1 weights.
 
