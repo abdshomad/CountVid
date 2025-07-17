@@ -56,6 +56,7 @@ Install GCC. In this project, GCC 11.3 and 11.4 were tested. The following comma
 ```
 sudo apt update
 sudo apt install build-essential
+sudo apt install gcc-11 g++-11
 ```
 
 ### 4. Set Up Anaconda Environment:
