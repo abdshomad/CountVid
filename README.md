@@ -66,6 +66,7 @@ The following commands will create a suitable Anaconda environment for running C
 ```
 conda create -n countvid python=3.10
 conda activate countvid
+conda install -c conda-forge gxx_linux-64 compilers libstdcxx-ng # ensure to install required compilers
 cd ..
 git clone https://github.com/facebookresearch/sam2.git && cd sam2
 pip install -e .
