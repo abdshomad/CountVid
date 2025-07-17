@@ -49,7 +49,7 @@ git clone git@github.com:niki-amini-naieni/CountVid.git
     ...
   ```
 
-### 3. Install GCC
+### 3.a. Install GCC 
 
 Install GCC. In this project, GCC 11.3 and 11.4 were tested. The following command installs GCC and other development libraries and tools required for compiling software in Ubuntu.
 
@@ -58,6 +58,10 @@ sudo apt update
 sudo apt install build-essential
 sudo apt install gcc-11 g++-11
 ```
+
+### 3.b. Install CUDA Toolkit:
+
+NOTE: In order to install detectron2 in step 4, you needed to tnstall CUDA Toolkit. Refer to: https://developer.nvidia.com/cuda-downloads
 
 ### 4. Set Up Anaconda Environment:
 
