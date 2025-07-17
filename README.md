@@ -102,8 +102,7 @@ python -m pip install 'git+https://github.com/facebookresearch/detectron2.git'
 
   ```
   pip install gdown
-  cd checkpoints
-  gdown 1bw-YIS-Il5efGgUqGVisIZ8ekrhhf_FD
+  gdown --id 1bw-YIS-Il5efGgUqGVisIZ8ekrhhf_FD -O checkpoints/
   ```
 
 * Download the pretrained  SAM 2.1 weights.
