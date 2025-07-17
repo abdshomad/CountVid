@@ -29,6 +29,9 @@ RUN update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-11 100 && \
 RUN update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.10 1 && \
     python3 -m pip install --upgrade pip
 
+# Add symlink for python -> python3
+RUN ln -s /usr/bin/python3 /usr/bin/python
+
 # Set working directory
 WORKDIR /workspace
 
