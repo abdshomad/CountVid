@@ -1,0 +1,28 @@
+version: "3.8"
+services:
+  countvid:
+    build: .
+    image: countvid:latest
+    container_name: countvid
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=all
+    volumes:
+      - ./:/workspace
+      # Optionally mount your data or checkpoints folders here
+      # - ./checkpoints:/workspace/checkpoints
+      # - ./demo:/workspace/demo
+    working_dir: /workspace
+    tty: true
+    stdin_open: true
+    # Uncomment and edit the following to run a demo automatically
+    # command: >
+    #   python count_in_videos.py --video_dir demo --input_text "penguin" --sam_checkpoint checkpoints/sam2.1_hiera_large.pt --sam_model_cfg configs/sam2.1/sam2.1_hiera_l.yaml --obj_batch_size 30 --img_batch_size 10 --downsample_factor 1 --pretrain_model_path checkpoints/countgd_box.pth --temp_dir ./demo_temp --output_dir ./demo_output --save_final_video --save_countgd_video
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu] 
