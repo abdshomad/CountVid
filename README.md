@@ -2,7 +2,7 @@
 
 Niki Amini-Naieni & Andrew Zisserman
 
-Official PyTorch implementation for CountVid. Details can be found in the paper, [[Paper]](http://arxiv.org/abs/2506.15368) [[Project page]](https://github.com/niki-amini-naieni/CountVid/).
+Official PyTorch implementation for CountVid. Details can be found in the paper, [[Paper]](http://arxiv.org/abs/2506.15368) [[Project page]](https://www.robots.ox.ac.uk/~vgg/research/countvid/).
 
 If you find this repository useful, please give it a star ⭐.
 
