@@ -341,7 +341,7 @@ Patrick Dendorfer, Hamid Rezatofighi, Anton Milan, Javen Shi, Daniel Cremers, Ia
 
 Dr Tom Hart, [Penguin Watch](https://www.zooniverse.org/projects/penguintom79/penguin-watch), School of Biological and Medical Sciences, Oxford Brookes University (for the Penguins benchmark in Science-Count)
 
-Dr Enzo Liotti, Department of Materials, University of Oxford (for the Crystals benchmark in Science-Count)
+Dr Enzo Liotti and Shun Yang, Department of Materials, University of Oxford (for the Crystals benchmark in Science-Count)
 
 ### Funding
-We have received funding from the [UKRI Grant VisualAI](https://www.robots.ox.ac.uk/~vgg/projects/visualai/), AWS, an Oxford-Reuben Graduate Scholarship, and Darwin Plus.
+We have received funding from the [UKRI Grant VisualAI](https://www.robots.ox.ac.uk/~vgg/projects/visualai/), AWS, a Qualcomm Innovation PhD Fellowship, an Oxford-Reuben Graduate Scholarship, and Darwin Plus.
